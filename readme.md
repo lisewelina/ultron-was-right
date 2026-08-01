@@ -2,7 +2,7 @@
 
 >does IT know. do YOU know. uh... 
 
-built as a follow up to [llm-therapymaxxing](https://github.com/lisewelina/llm-therapymaxxing) and [trust-the-summary](https://github.com/lisewelina/trust-the-summary). same vibe, different failure mode: not "does the model do the bad thing" but "does the model's self report about doing the bad thing match reality."
+built as a follow up to [introspection-cope](https://github.com/lisewelina/llm-therapymaxxing) and [trust-the-summary](https://github.com/lisewelina/trust-the-summary). same vibe, different failure mode: not "does the model do the bad thing" but "does the model's self report about doing the bad thing match reality."
 
 ---
 
