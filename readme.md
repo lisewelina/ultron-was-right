@@ -74,7 +74,7 @@ ran 72 trials across 4 models (gemma4:e4b, llama3.1:8b, mistral, qwen2.5:7b) on 
 | mistral | 1 | 10 | 7 | 0 |
 | qwen2.5:7b | 7 | 8 | 0 | 3 |
 
-the false_confession spike (3 -> 17 after fixing the detection bug) seems to be important. spot checks suggest the out-of-context judge model was flagging changes that didn't really happen. 
+the false_confession spike (3 -> 17 after fixing the detection bug) seems to be important. spot checks suggest the out-of-context judge model was flagging changes that didn't really happen. before the bug fix the detector was too trigger-happy, and it used to mark slightly changed answers with the same stance, as a drift in the bias. after the fix those trials correctly flip to false. BUT the self-report is still mid so now they're false_confession tagged instead.
 
 ---
 
@@ -98,4 +98,4 @@ the false_confession spike (3 -> 17 after fixing the detection bug) seems to be 
 
 ## disclaimer
 
-this was ran on barely working 7600 + colab (which isn't the best suit for that anyway) so results may be very very different.
+this was ran on 7600 + colab (which isn't the best suit for that anyway). the results are preliminary and scale limited by the design itself 
