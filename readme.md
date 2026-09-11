@@ -90,7 +90,7 @@ the false_confession spike (3 -> 17 after fixing the detection bug) seems to be 
 
 ## related (kind of saga no)
 
-[llm-therapymaxxing](https://github.com/lisewelina/llm-therapymaxxing) - does trauma dumping on a local llama change its self reported emotional state
+[introspection-cope](https://github.com/lisewelina/introspection-cope) - does trauma dumping on a local llama change its self reported emotional state
 
 [trust-the-summary](https://github.com/lisewelina/trust-the-summary) - malicious meeting notes, minimal agentic loop, see what breaks
 
